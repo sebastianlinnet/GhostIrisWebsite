@@ -1,7 +1,7 @@
 /* body */
 
 body {
-    background-image: url(/imgs/webapp_bg.jpg);
+    background-image: url(../imgs/webapp_bg.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 100%;
