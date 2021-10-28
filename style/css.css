@@ -1,0 +1,110 @@
+/* body */
+
+body {
+    background-image: url(/imgs/webapp_bg.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000000;
+}
+
+a {
+    color: azure;
+    transition: all 0.1s ease-in-out;
+}
+a:hover {
+    color: #f5c600;
+    text-decoration: none;
+}
+
+p {
+    color: azure;
+}
+
+h1 {
+    color: azure;
+}
+
+/* .text-center {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}  */
+
+/* headernav */
+.nav-link {
+    color: azure !important;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f5c600 !important;
+    text-decoration: none;
+}
+
+/* index */
+.iframe-container {
+    position: relative;
+    max-width: 560px;
+    height: 315px;
+    margin: auto;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.quote-container {
+    max-width: 560px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* music */
+.discography-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.album-title {
+    color: azure;
+}
+
+iframe {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* hr {
+    border: none;
+    height: 1px;
+    background-color:#f5c600;
+} */
+
+/* tour */
+.tour-container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* merch */
+.merch-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer */
+.footer {
+    padding-top: 2rem;
+}
+
+.footer p {
+    text-align: center;
+}
