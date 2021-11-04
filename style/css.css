@@ -25,6 +25,20 @@ h1 {
     color: azure;
 }
 
+h2 {
+    color: azure;
+}
+
+h3 {
+    color: azure;
+}
+
+.text-center {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* .text-center {
     display: flex;
     flex-direction: column;
@@ -128,4 +142,10 @@ iframe {
 
 .footer p {
     text-align: center;
+}
+
+/* privacy */
+ul li {
+    content: "\2022";
+    color: azure;
 }
